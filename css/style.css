@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 装飾 */
+a {
+  color: #fff;
+  background: linear-gradient #8b00be, rgba(255, 0, 0, 0.2);
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: #ff5800;
+}
