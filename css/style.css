@@ -12,7 +12,7 @@ body {
 
 /* 装飾 */
 a {
-  color: #fff;
+  color: black;
   background: linear-gradient #8b00be, rgba(255, 0, 0, 0.2);
   padding: 10px 30px;
   display: inline-block;
