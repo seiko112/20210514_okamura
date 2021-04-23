@@ -1,22 +1,51 @@
-* {
-  box-sizing: border-box;
+ * {
+ margin: 30px;
+ padding: 0; 
+ color: #000080;
+ font-weight: bold;
 }
-body {
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+ul {
+  list-style:none;
+}
+div {
+  padding: 0 30px;
+}
+.header__float {
+  overflow: hidden;
+  clear: both;
+  line-height: 48px;
+}
+.header__float h1 {
+  float: left;
+}
+.header__float nav {
+  float: right;
+}
+.header__float nav ul li{
+  float: left;
+  margin-left: 20px;
+}
+.relative {
+  position: relative;
+}
+.relative__img {
+  position: relative;
+  margin: 200px 0 0 750px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 50%;
 }
-
-/* 装飾 */
-a {
+.absolute {
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  font-size: 60px;
+  font-weight: normal;
   color: black;
-  background: linear-gradient (#8b00be, rgba(255, 0, 0, 0.2));
-  padding: 10px 30px;
-  display: inline-block;
-  border-radius: 30px;
-  text-decoration: none;
-  box-shadow: #ff5800;
+}
+.item {
+  width: 80%;
+  height: 300px;
+  margin: -70px;
+  top: 50px;
+  background: #000080;
 }
