@@ -4,6 +4,7 @@ a {
   color: inherit;
 }
 h1 img {
+  width: 100px;
   height: 20px;
 }
 .header {
@@ -64,28 +65,89 @@ h5 {
   color: #c71585;
 }
 .news {
-  margin: 100px 300px 0;
+  margin: 100px 260px 0;
   padding: 40px;
-  line-height: 20px;
-  font-size: 20px;
+  line-height: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: grey;
 }
 .news_list {
   margin: 20px 300px;
-  padding: 24px 0;
+  padding: 20px 0;
+  color: #696969;
   border-top: 3px solid #d3d3d3;
   border-bottom: 3px solid #d3d3d3;
 }
 button {
   width: 80px;
   padding: 1px;
+  margin: 20px;
   border-radius: 30px;
   color: white;
+  border: none;
   background-color: #c71585;
 }
 ul {
   list-style: none;
   line-height: 50px;
-  text-decoration: underline;
+}
+ul li {
+  padding: 5px;
+  border-bottom: 2px solid #dcdcdc;
+}
+.about {
+  background-color: #f5f5f5;
+  margin: 50px 0;
+  height: 500px;
+}
+.about h5 {
+  text-align: center;
+  padding: 40px 0 0 10px;
+  font-size: 30px;
+}
+.about_ttl {
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: grey;
+}
+.about_img {
+  display: inline-block;
+  width: 100%;
+  margin-left: 800px;
+  margin-top: 30px;
+}
+img {
+  width: 400px;
+}
+h6 {
+  color: grey;
+  font-size: 25px;
+  font-weight: normal;
+
+}
+.comment {
+  display: flex;
+  margin-top: -270px;
+  width: 380px;
+  margin-left: 180px;
+  line-height: 25px;
+}
+.service {
+  margin: 200px;
+  width: 150px;
+  text-align: right;
+  line-height: 30px;
+}
+.service p {
+  color: grey;
+  font-size: 20px;
+  font-weight: bold;
+}
+.service_img {
+  text-align: center;
+  background-color: #c71585;
+  width: 500px;
 }
