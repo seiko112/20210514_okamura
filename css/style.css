@@ -161,6 +161,7 @@ h6 {
   grid-row: 1/3;
   background: #c71585;
   color: white;
+  padding: 20px 30px;
   line-height: 30px;
   margin: 0 auto;
 }
@@ -170,6 +171,7 @@ h6 {
   font-size: 24px;
   margin: 0 auto;
   display: block;
+  text-align: center;
 }
 .education p {
   line-height: 20px;
@@ -181,29 +183,35 @@ h6 {
   background: #ee82ee;
   color: white;
   padding: 10px 30px;
+  line-height: 20px;
 }
 .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
   background: #dda0dd;
   color: white;
+  padding: 10px 30px;
+  line-height: 20px;
 }
 .box1 img {
   width: 100px;
   height: 200px;
   padding: 20px 30px 10px 30px;
-  margin: auto;
+  margin: 0 auto;
   display: block;
 }
 .box2 img {
   width: 100px;
   height: 100px;
   line-height: 30px;
-  margin-left: auto;
+  display: block;
+  margin: 0 auto;
 }
 .box3 img {
   width: 100px;
   height: 100px;
+  display: block;
+  margin: 0 auto;
 }
 .blog p {
   font-weight: bold;
@@ -218,15 +226,17 @@ h6 {
   margin-top: -500px;
 }
 .blog h5 {
-  right: 250px;
 }
 .blog_ttl {
-  right: 250px;
 }
 .blog {
-  background-color: #f5f5f5;
+  margin: 100px 180px 10px 0;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: grey;
   height: 700px;
-  width: 100%;
+  background-color: #f5f5f5;
 }
 .blog__card {
   width: 30%;
