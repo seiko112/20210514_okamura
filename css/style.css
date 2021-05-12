@@ -247,13 +247,14 @@ h6 {
   font-size: 30px;
   font-weight: bold;
   color: grey;
-  height: 600px;
+  height: 650px;
   width: 100%;
   background-color: #f5f5f5;
 }
 .blog__card {
   width: 50%;
   margin: 0 50px;
+  position: relative;
 }
 .card__img img {
   width: 100%;
@@ -261,44 +262,48 @@ h6 {
   border-top-right-radius: 10%;
 }
 .card__content {
-  position: relative;
   padding: 15px 15px;
   background-color: white;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 .card__ttl {
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 24px;
   margin-bottom: 50px;
-  font-weight: 400;
+  font-weight: bold;
+  color: grey;
 }
 .card__blog {
   position: absolute;
   left: 0;
-  top: 1px;
+  top: 0px;
   background-color: #c71585;
   color: white;
   font-size: 14px;
   display: inline-block;
   padding: 10px 10px;
+  border-top-left-radius: 40%;
 }
 .tag {
   font-size: 14px;
-  text-align: right;
+  text-align: left;
 }
 .card__tag {
   display: inline-block;
+  color: grey;
 }
 .card__date {
   display: inline-block;
   margin-left: 20px;
+  color: grey;
 }
 .btn {
   width: 250px;
   padding: 20px 10px;
   color: #c71585;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .practice__btn {
   border: 2px solid;
@@ -308,9 +313,11 @@ h6 {
 }
 .company h5 {
   text-align: left;
+  margin-left: 450px;
 }
 .company_ttl {
   text-align: left;
+  margin-left: 450px;
 }
 .company {
   padding: 0 100px 10px 0;
@@ -318,6 +325,9 @@ h6 {
   font-size: 30px;
   font-weight: bold;
   color: grey;
+}
+.table {
+  margin: 30px 450px;
 }
 table {
   width: 600px;
@@ -330,6 +340,36 @@ table td {
 table th {
   font-weight: bold;
   background-color: #dedede;
+}
+.mv {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.mv img {
+  width: 50%;
+}
+.mv__ttl {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  top: 150px;
+  left: 200px;
+}
+.mv2 {
+  position: relative;
+}
+.mv2 img {
+  width: 50%;
+}
+.intv__ttl {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  top: 150px;
+  left: 150px;
 }
 .footer {
   padding: 30px 400px;
