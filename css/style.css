@@ -144,16 +144,18 @@ h6 {
   color: grey;
 }
 .service_ttl{
-  margin: ;
-  padding: 20px 500px;
   line-height: 40px;
   font-size: 30px;
   font-weight: bold;
   color: grey;
 }
-.service p {
+.service p ,
+.service h5,
+.blog h5,
+.blog_ttl {
   font-size: 20px;
   font-weight: bold;
+  text-align: left;
 }
 .grid__parent {
   display: grid;
@@ -230,12 +232,14 @@ h6 {
   margin-top: -500px;
 }
 .blog h5 {
+  padding: 5px 40px 0;
 }
 .blog_ttl {
+  padding: 0px 40px 0;
 }
 .blog {
-  margin: 100px 180px 10px 0;
-  line-height: 40px;
+  padding: 10px 30px;
+  line-height: 30px;
   font-size: 30px;
   font-weight: bold;
   color: grey;
@@ -244,13 +248,14 @@ h6 {
   background-color: #f5f5f5;
 }
 .blog__card {
-  width: 30%;
+  width: 50%;
+  margin:  10px 50px;
 }
 .card__img img {
   width: 100%;
 }
 .card__content {
-  padding: 15px 25px;
+  padding: 15px 15px;
   background-color: white;
 }
 .card__ttl {
@@ -260,6 +265,7 @@ h6 {
 }
 .card__blog {
   background-color: #c71585;
+  color: white;
   margin-bottom: 15px;
   display: inline-block;
   font-size: 14px;
