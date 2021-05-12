@@ -232,10 +232,14 @@ h6 {
   margin-top: -500px;
 }
 .blog h5 {
-  padding: 5px 40px 0;
+  padding: 10px 40px 1px;
 }
 .blog_ttl {
   padding: 0px 40px 0;
+}
+.blog p {
+  padding: 13px 5px 1px 0;
+  margin: 5px 40px;
 }
 .blog {
   padding: 10px 30px;
@@ -243,32 +247,41 @@ h6 {
   font-size: 30px;
   font-weight: bold;
   color: grey;
-  height: 700px;
+  height: 600px;
   width: 100%;
   background-color: #f5f5f5;
 }
 .blog__card {
   width: 50%;
-  margin:  10px 50px;
+  margin: 0 50px;
 }
 .card__img img {
   width: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
 }
 .card__content {
   padding: 15px 15px;
   background-color: white;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 .card__ttl {
   font-size: 18px;
   margin-bottom: 30px;
   font-weight: 400;
 }
+.flex__item {
+  position: relative;
+}
 .card__blog {
+  position: absolute;
   background-color: #c71585;
   color: white;
   margin-bottom: 15px;
-  display: inline-block;
+  margin-top: -100px;
   font-size: 14px;
+  display: inline-block;
   padding: 10px 10px;
 }
 .tag {
@@ -283,20 +296,25 @@ h6 {
   margin-left: 20px;
 }
 .btn {
-  width: 150px;
+  width: 250px;
   padding: 20px 10px;
   color: #c71585;
-  text-align: center;
+  margin: 0 auto;
 }
 .practice__btn {
   border: 2px solid;
   border-radius: 30px;
-  padding: 12px;
+  padding: 15px 40px;
   background-color: white;
-  display: block;
+}
+.company h5 {
+  text-align: left;
+}
+.company_ttl {
+  text-align: left;
 }
 .company {
-  margin: 100px 180px 10px 0;
+  padding: 0 100px 10px 0;
   line-height: 40px;
   font-size: 30px;
   font-weight: bold;
