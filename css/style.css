@@ -341,35 +341,12 @@ table th {
   font-weight: bold;
   background-color: #dedede;
 }
-.mv {
-  position: relative;
+.flex {
   display: flex;
-  justify-content: space-between;
-}
-.mv img {
-  width: 50%;
-}
-.mv__ttl {
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  top: 150px;
-  left: 200px;
-}
-.mv2 {
   position: relative;
 }
-.mv2 img {
-  width: 50%;
-}
-.intv__ttl {
+.flex li {
   position: absolute;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  top: 150px;
-  left: 150px;
 }
 .footer {
   padding: 30px 400px;
