@@ -384,11 +384,11 @@ table th {
 }
 .mail_btn {
   position: relative;
-  width: 170px;
+  width: 240px;
   padding: 20px 0;
   color: #fff;
   border-radius: 30px;
-  background: linear-gradient(90deg, #c71585, #be005f);
+  background: linear-gradient(90deg, #eb39aa, #be005f);
   text-align: center;
   box-shadow: 0 5px 0 rgba(255, 0, 98, 0.2);
   margin:20px auto 20px;
@@ -398,9 +398,9 @@ table th {
   position: absolute;
   content: "";
   top: 50%;
-  left: 15px;
+  left: 10px;
+  background-image: url(../img/mailicon.svg);
   background-size: cover;
-  background-image: url(../img/mailicon.svg)no-repeat;
   width: 30px;
   height: 30px;
   transform: translate(0, -50%);
